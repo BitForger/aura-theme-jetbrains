@@ -1,1 +1,1 @@
-rootProject.name = "aura-theme-jetbrains"
+rootProject.name = "aura-theme"

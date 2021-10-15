@@ -1,14 +1,23 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.bitforger.aurathemejetbrains</id>
-    <name>aura-theme-jetbrains</name>
+    <id>com.github.bitforger.auratheme</id>
+    <version>1.0.0</version>
+    <name>Aura-Theme</name>
     <vendor>bitforger</vendor>
+    <description><![CDATA[
+      A port of the aura theme for jetbrains editors
+    ]]></description>
+
+    <change-notes><![CDATA[
+    ]]>
+    </change-notes>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.bitforger.aurathemejetbrains.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.bitforger.aurathemejetbrains.services.MyProjectService"/>
+        <themeProvider id="bff2e851-3fa8-4755-b8b3-290b47df246d" path="/aura-jetbrains.theme.json" />
     </extensions>
 
     <applicationListeners>

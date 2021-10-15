@@ -1,0 +1,39 @@
+{
+  "name": "Aura Theme",
+  "dark": true,
+  "author": "BitForger",
+  "editorScheme": "/aura-dark.xml",
+  "colors": {
+    "purplePrimary": "#a277ff",
+    "purpleSelection": "#a394f033",
+    "secondary": "#61ffca",
+    "tertiary": "#ffca85",
+    "quaternary": "#f694ff",
+    "quinary": "#82e2ff",
+    "senary": "#ff6767",
+    "foreground": "#edecee",
+    "comments": "#6d6d6d",
+    "background": "#15141b",
+    "buttonBackground": "#25242d"
+  },
+  "ui": {
+    "*": {
+      "background": "background",
+      "foreground": "foreground",
+      "selectionBackground": "purpleSelection",
+      "infoForeground": "tertiary",
+      "successForeground": "secondary",
+      "errorForeground": "senary"
+    },
+    "Button": {
+      "default": {
+        "endBackground": "secondary",
+        "startBackground": "secondary",
+        "foreground": "background"
+      },
+
+      "startBackground": "buttonBackground",
+      "endBackground": "buttonBackground"
+    }
+  }
+}
